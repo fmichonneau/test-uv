@@ -1,3 +1,8 @@
+---
+title: "DuckDB and Matplotlib Example"
+---
+
+```{python}
 import duckdb
 import matplotlib.pyplot as plt
 
@@ -32,3 +37,5 @@ ax.set_ylabel("Revenue ($)")
 ax.set_title("Monthly Revenue")
 fig.tight_layout()
 plt.show()
+
+```
